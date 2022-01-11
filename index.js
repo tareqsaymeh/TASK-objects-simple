@@ -11,13 +11,63 @@
  *
  */
 
+
+const movies1 = 
+
+{
+
+id: 1,
+name: "Gladiator",
+rating: 9,
+
+
+};
+
+console.log(movies1);
+
+const movies2 = 
+
+{
+
+id: 2,
+name: "COCO",
+rating: 8,
+    
+    
+    };
+
+    console.log(movies2)
+
+
+    const movies3 = {
+
+    id: 3,
+    name: "Dont Look Up",
+    rating: 3,
+
+
+    };
+   
+    console.log(movies3)
+
+
+
+
+
+
+
+
+
 // add the movies variables here ....
+
 
 /** Task 2:
  * Create an array `movies`
  * Add to it the movies that you created on top.
  * Once you add one movie,
  * you will see the movie card in the html page!
+ * 
+ * 
  *
  * Don't add to the array the movies variables,
  * just copy paste the content to be in the following format
