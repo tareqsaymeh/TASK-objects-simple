@@ -1,9 +1,10 @@
 /** Task 1:
  * create 3 objects with the name movie1, movie2, movie3
  * Add 3 properties to it
+ * - id -> just a unique id, you can start with 1
  * - name -> a movie name (e.g. COCO)
  * - image  -> an http link of the image on the internet
- * - id -> just a unique id, you can start with 1
+ * rating -> a rating number from 1 to 10
  *
  * After you create the movies, console log them.
  * Open the live server, and see the logs in the console of the browser

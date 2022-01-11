@@ -22,14 +22,14 @@ function render(movies) {
 //   addMovie(movieName);
 // }
 
-function movieCard({ name, image, id, ranking }) {
+function movieCard({ name, image, id, rating }) {
   return String.raw`
   <div class="card" id="movie-${id}">
     <div class="card-body">
       <div>
       <img class="img-thumbnail" src="${image}" />
         <h5 class="card-title"><b>${name}</b></h5>
-        <p class="p">Rank: ${ranking}</p>
+        <p class="p">Rating: ${rating}</p>
       </div>
     </div>
   </div>`;
