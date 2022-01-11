@@ -30,16 +30,7 @@
  */
 
 /** TASK 3:
- * move the array of movies, and create a new file
- * call it `movies.json`
- * Copy paste the content of the array
+ * Create a new file call it `movies.json`
+ * Copy paste the content of the array inside the json file
  * Make sure it's a json format.
- * Import it in this file using
- * const movies = require("movies.json")
  */
-
-let movies = [
-  {
-    id: 1,
-  },
-];
